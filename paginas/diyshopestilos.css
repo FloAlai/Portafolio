@@ -1,0 +1,33 @@
+header{
+    background-color: #424242;
+    text-decoration-color: #c6c6c6;
+
+
+}
+
+body{
+
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #212121, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #212121, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.text-center{
+    color: #454545;
+}
+.row{
+    display:grid;
+    grid-template-columns: repeat(4,2fr);
+    grid-gap:2px;
+
+
+}
+.row img{
+    width: 100%;
+    padding: 10px;
+}
+
+footer{
+    background-color: hotpink;
+}
